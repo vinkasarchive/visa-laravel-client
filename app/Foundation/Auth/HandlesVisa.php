@@ -20,8 +20,8 @@ trait HandlesVisa
   }
 
   public function logout() {
-    $logoutUrl = $this->getSeverUrl() . '/logout';
-    return redirect($logoutUrl);
+    \Auth::logout();
+    return redirect('/');
   }
 
 }
