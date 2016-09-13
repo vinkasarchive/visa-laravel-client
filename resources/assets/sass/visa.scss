@@ -1,0 +1,32 @@
+::selection {
+  background: unquote("rgb(#{$color-accent})") !important;
+  color: #fff;
+  text-shadow: none;
+}
+a {
+  text-decoration: none;
+}
+a .material-icons {
+    position: relative;
+    top: -1px;
+    vertical-align: middle;
+}
+.visa-header {
+  overflow: visible;
+  background-color: white;
+}
+.visa-header .mdl-layout__header-row .mdl-navigation__link {
+  color: #757575;
+  font-weight: 700;
+  font-size: 14px;
+}
+.visa-header .mdl-menu__container {
+  z-index: 50;
+  margin: 0 !important;
+}
+.visa-header .material-icons {
+  color: #757575;
+}
+.visa-logo-image {
+  max-height: 48px;
+}
